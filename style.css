@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+    #header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+        margin-right: 2vh;
+
+        & img {
+            height: 6vh;
+            margin-top: 2vh;
+            margin-bottom: 1vh;
+            
+            
+        }
+
+    }
+
+    #formbody {
+        height: 90vh;
+        background-color: #cdcef7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & #form {
+            background-color: white;
+            height: 70vh;
+            width: 45vh;
+            
+
+            & #title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 2.5vh;
+
+                & h1 {
+                    font-size: 3vh;
+                    margin-top: 1vh;
+                }
+
+                & span {
+                    font-size: 1.8vh;
+                    word-spacing: 0.6vh;
+                    margin-top: 0.5 vh;
+                }
+            }
+
+            & #inputs {
+                display: flex;
+                flex-direction: column;
+                margin-left: 4vh;
+                margin-top: 3vh;
+
+                & label {
+                    font-size: 2vh;
+                    font-weight: 600;
+                }
+
+                & input {
+                    height: 8vh;
+                    width: 35vh;
+                    margin-top: 0.7vh;
+                    border-radius: 8px;
+                    border: none;
+                    outline: none;
+                    background-color: #f8f8f8;
+                    &::placeholder {
+                        padding-left: 1.5vh;
+                    }
+
+                }
+
+                & a {
+                    margin-top: 4vh;
+                    font-size: 2vh;
+                    color: rgb(70, 70, 70);
+                }
+
+                & button {
+                    background-color: #c92071;
+                    color: white;
+                    border: none;
+                    height: 7vh;
+                    width: 35vh;
+                    margin-top: 3vh;
+                    border-radius: 8px;
+                    margin-left: 1.3vh;
+                    
+                }
+                & p {
+                    font-size: 2vh;
+                    margin-top: 2vh;
+                    margin-left: 9vh;
+                    color: #474747;
+                }
+
+
+            }
+        }
+        & #imagens{
+            display: flex;
+            margin-left: 15vh;
+            gap: 3vh;
+            margin-top: 3vh;
+
+            
+            & img{
+                height: 5vh;
+            }
+            
+        }
+    }
+}
